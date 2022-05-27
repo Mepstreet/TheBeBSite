@@ -1,0 +1,101 @@
+* {
+box-sizing: border-box;
+text-align: center;
+margin: 0 auto;
+}
+
+
+.title {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+background-color: #b4b4b4;
+
+}
+
+.layout {
+  width: 1366px;
+  height: 768px;
+
+  display: grid;
+  grid:
+    "Gallery_one Gallery_one_words" 1fr
+    "Gallery_two Gallery_two_words" 1fr
+    "Gallery_three Gallery_three_words" 1fr
+    "Gallery_four Gallery_four_words" 1fr
+    "Gallery_five Gallery_five_words" 1fr
+    "Gallery_six Gallery_six_words" 1fr
+    "Gallery_seven Gallery_seven_words" 1fr
+    "Gallery_eight Gallery_eight_words" 1fr
+    "Gallery_nine Gallery_nine_words" 1fr
+    "Gallery_ten Gallery_ten_words" 1fr
+    "Gallery_eleven Gallery_eleven_words" 1fr
+    "Gallery_twelve Gallery_twelve_words" 1fr
+    "Gallery_thirteen Gallery_thirteen_words" 1fr
+    / 1fr 1fr;
+  gap: 8px;
+}
+
+.Gallery_one { grid-area: Gallery_one; }
+.Gallery_one_words { grid-area: Gallery_one_words; }
+.Gallery_two { grid-area: Gallery_two; }
+.Gallery_two_words { grid-area: Gallery_two_words; }
+.Gallery_three { grid-area: Gallery_three; }
+.Gallery_three_words { grid-area: Gallery_three_words; }
+.Gallery_four { grid-area: Gallery_four; }
+.Gallery_four_words { grid-area: Gallery_four_words; }
+.Gallery_five { grid-area: Gallery_five; }
+.Gallery_five_words { grid-area: Gallery_five_words; }
+.Gallery_six { grid-area: Gallery_six; }
+.Gallery_six_words { grid-area: Gallery_six_words; }
+.Gallery_seven { grid-area: Gallery_seven; }
+.Gallery_seven_words { grid-area: Gallery_seven_words; }
+.Gallery_eight { grid-area: Gallery_eight; }
+.Gallery_eight_words { grid-area: Gallery_eight_words; }
+.Gallery_nine { grid-area: Gallery_nine; }
+.Gallery_nine_words { grid-area: Gallery_nine_words; }
+.Gallery_ten { grid-area: Gallery_ten; }
+.Gallery_ten_words { grid-area: Gallery_ten_words; }
+.Gallery_eleven { grid-area: Gallery_eleven; }
+.Gallery_eleven_words { grid-area: Gallery_eleven_words; }
+.Gallery_twelve { grid-area: Gallery_twelve; }
+.Gallery_twelve_words { grid-area: Gallery_twelve_words; }
+
+img{
+height: 250px;
+width: 400px;
+border: 2px solid black;
+border-radius: 25px;
+}
+
+
+div.relative {
+  position: relative;
+  left: 30px;
+  down: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: Blue;
+}

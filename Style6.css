@@ -1,0 +1,57 @@
+* {
+box-sizing: border-box;
+text-align: center;
+margin: 0 auto;
+}
+
+
+.title {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+background-color: #b4b4b4;
+
+}
+
+
+.layout {
+  width: 1366px;
+  height: 768px;
+
+  display: grid;
+  grid:
+    "This Is A Title" 1fr
+    "This Is Information" 1fr
+    "This Is A Title2" 1fr
+    "This Is Information2" 1fr
+    / 1fr;
+  gap: 8px;
+}
+
+.This Is A Title { grid-area: This Is A Title; }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: Blue;
+}
